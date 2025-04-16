@@ -1,6 +1,9 @@
 Redgate/
 configstore/
 gatsby/
-
-op/op-daemon.sock
+github-copilot/iu/chat-sessions/
+httpie/sessions/
+packer/plugins/
 tmux/plugins/
+op/op-daemon.sock
+github-copilot/apps.json
