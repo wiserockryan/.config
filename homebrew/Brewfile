@@ -1,0 +1,169 @@
+tap "1password/tap"
+tap "hashicorp/tap"
+tap "homebrew/services"
+tap "http4k/tap"
+tap "jesseduffield/lazydocker"
+tap "jesseduffield/lazygit"
+tap "lunatic-solutions/lunatic"
+tap "microsoft/mssql-release"
+tap "modularml/packages"
+tap "wasmcloud/wasmcloud"
+# Securely manage AWS API credentials using AWS SSO
+brew "aws-sso-cli"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Library for command-line editing
+brew "readline"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Statistics utility to count lines of code
+brew "cloc"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Docker Credential Helper for Amazon ECR
+brew "docker-credential-helper-ecr"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Database version control to control migrations
+brew "flyway"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GNU compiler collection
+brew "gcc"
+# Distributed revision control system
+brew "git"
+# Git extension for versioning large files
+brew "git-lfs"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Post-modern modal text editor
+brew "helix"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@75"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@76"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Postgres C API library
+brew "libpq"
+# Language Server Protocol for Markdown
+brew "marksman"
+# GDI+-compatible API on non-Windows operating systems
+brew "mono-libgdiplus"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
+# Manage multiple Node.js versions
+brew "nvm"
+# Create, run, and share large language models (LLMs)
+brew "ollama", restart_service: :changed
+# ISO-C API and CLI for generating UUIDs
+brew "ossp-uuid"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Highly capable, feature-rich programming language
+brew "perl"
+# Package compiler and linker metadata toolkit
+brew "pkgconf"
+# Python version management
+brew "pyenv"
+# Pyenv plugin to manage virtualenv
+brew "pyenv-virtualenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Install various Ruby versions and implementations
+brew "ruby-build"
+# Ruby version manager
+brew "rbenv"
+# Perl-powered file rename script with many helpful built-ins
+brew "rename"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# TOML toolkit written in Rust
+brew "taplo"
+# Terminal multiplexer
+brew "tmux"
+# ODBC 3 connectivity for UNIX
+brew "unixodbc"
+# Internet file retriever
+brew "wget"
+# JavaScript package manager
+brew "yarn"
+# General-purpose lossless data-compression library
+brew "zlib"
+# Terraform Language Server
+brew "hashicorp/tap/terraform-ls"
+# A simple terminal UI for docker, written in Go
+brew "jesseduffield/lazydocker/lazydocker"
+# A universal runtime for fast, robust and scalable server-side applications.
+brew "lunatic-solutions/lunatic/lunatic"
+# WAsmcloud SHell - a comprehensive command-line tool for wasmCloud development
+brew "wasmcloud/wasmcloud/wash"
+# Command-line interface for 1Password
+cask "1password-cli"
+# Enable Windows-like alt-tab
+cask "alt-tab"
+cask "font-fira-code-nerd-font"
+cask "font-hack-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-meslo-lg-nerd-font"
+# Tool to invert scroll direction for physical scroll wheels
+cask "unnaturalscrollwheels"
+# Rust-based terminal
+cask "warp"
+vscode "1password.op-vscode"
+vscode "altimateai.vscode-altimate-mcp-server"
+vscode "bierner.markdown-mermaid"
+vscode "dbaeumer.vscode-eslint"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "figma.figma-vscode-extension"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "innoverio.vscode-dbt-power-user"
+vscode "jakebecker.elixir-ls"
+vscode "kevinwolfcr.vscode-quiet-canvas"
+vscode "mermaidchart.vscode-mermaid-chart"
+vscode "modular-mojotools.vscode-mojo"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.csdevkit"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-dotnettools.vscodeintellicode-csharp"
+vscode "ms-edgedevtools.vscode-edge-devtools"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
+vscode "msoffice.microsoft-office-add-in-debugger"
+vscode "phoenixframework.phoenix"
+vscode "pwabuilder.pwa-studio"
+vscode "redhat.java"
+vscode "samuelcolvin.jinjahtml"
+vscode "shaneliesegang.vscode-simple-icons-rev"
+vscode "statelyai.stately-vscode"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.vscode-gradle"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "vscodevim.vim"
